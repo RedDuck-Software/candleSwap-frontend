@@ -1,25 +1,20 @@
-# TradingView Charting Library
+# TradingView Charting Library and React Integration Example (JavaScript)
 
-[Demo][demo-url] | [Documentation][wiki-url] | [Tutorial][tutorial-url] | [Discord community][discord-url]
+## How to start
 
-This repository contains the TradingView Charting Library package. If you use Git in your project, please feel free to use this repo as a submodule in yours.
+1. Install dependencies `npm install`.
+1. Copy `charting_library` folder from https://github.com/tradingview/charting_library/ to `/public` and to `/src` folders. The earliest supported version of the Charting Library is 17. If you get 404 then you need to [request an access to this repository](https://www.tradingview.com/HTML5-stock-forex-bitcoin-charting-library/).
+1. Copy `datafeeds` folder from https://github.com/tradingview/charting_library/ to `/public`.
+1. Run `npm start`. It will build the project and open a default browser with the Charting Library.
 
-The `master` branch contains the current stable version. 
+## What is Charting Library
 
-The `unstable` branch contains the most recent features and fixes, but it can be less stable (actually, it's the beta, which is already thoroughly tested).
+Charting Library is a standalone solution for displaying charts. This free, downloadable library is hosted on your servers and is connected to your data feed to be used in your website or app. [Learn more and download](https://www.tradingview.com/HTML5-stock-forex-bitcoin-charting-library/).
 
-Please read [wiki][wiki-url] (at least the [Overview][wiki-url] and the [Best Practices][best-practices-url]) before using the Library.
+## What is React
 
-### Issues Tracking
-We use GitHub's [Issues tracker][issues-url] for our project. Feel free to create bug reports and features requests. Make sure to read the documentation before asking questions - this will avoid repeated questions, leaving us more time for developing the library.
+React is a JavaScript library for building user interfaces. It is maintained by Facebook, Instagram and a community of individual developers and corporations.
 
-### Stay Tuned
-[Follow us][twitter-url] on Twitter to receive updates.
+## About This Project
 
-[demo-url]: https://charting-library.tradingview.com/
-[wiki-url]: https://github.com/tradingview/charting_library/wiki
-[tutorial-url]: https://github.com/tradingview/charting-library-tutorial
-[best-practices-url]: https://github.com/tradingview/charting_library/wiki/Best-practices
-[issues-url]: https://github.com/tradingview/charting_library/issues
-[twitter-url]: https://twitter.com/intent/follow?screen_name=tv_charts
-[discord-url]: https://discord.gg/E6UthXZ
+This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
